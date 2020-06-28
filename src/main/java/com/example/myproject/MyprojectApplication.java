@@ -19,7 +19,6 @@ public class MyprojectApplication {
     public static void main(String[] args) {
         try {
             SpringApplication.run(MyprojectApplication.class, args);
-            LOGGER.info("test>>>>>>>>>");
         } catch (Exception e) {
             System.out.println(e);
         }
